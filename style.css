@@ -1,0 +1,44 @@
+/* #navigation,
+ul {
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+} 
+
+ #navigation,
+li {
+    padding-right: 15px;
+    border: 1px solid black;
+} */
+
+#listt {
+     text-align: center; 
+     display: flex;              /* Horizontal layout */
+     justify-content: center;    /* Center the items */
+     list-style: none;           /* Remove bullets */
+     gap: 20px;                  /* Space between links */
+     padding: 0;                 /* Remove default padding */ margin: 0;  
+     border: 1px solid black; 
+} 
+
+.heading {
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.images {
+    width: 200px;
+    height: 250px;
+}
+
+#dishes {
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    padding: 1px;
+}
+
+#formm {
+    padding: 5px;
+    border: 1px solid black;
+}

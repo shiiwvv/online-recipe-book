@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Burgers</title>
+    <style>
+        header{
+            text-align: center;
+        }
+        
+        article{
+            padding: 25px;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>The Burgers</h1>
+        <p>Your one stop solution for the love of <i>Food</i></p>
+        <p>Welcome! We are really excited to see you here.This site is made with heart for all the foodies and chefs out there who love to eat variety of dishes and cook something so good that poeple are left speechless.</p>
+        <div id="navigation">
+            <nav >
+                <ul id="listt">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#post">Post</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+    <main>
+        <section id="about">  
+            <h2 class="heading">About Us</h2>
+            <p class="heading"> <b>The Burgers</b>, is an platform used by millions of users on a daily basis.It is even used by mane professional chefs to find out new recipe to try and upskill there skills.If you're just a beginner and feeling overwhelmed, Don't be, The Burgers are here to Help.You can access out enriched liberary of Reciped made available by you guys only.Thanks for helping us keeping this platform open and friendly for everyone. Scroll and find recipes to try out that you find intreguing.. Joii!!!</p>            
+        </section>
+        <hr>
+        <section id="recipes">
+            <h2 class="heading">Recipe</h2>
+            <p class="heading">These are the top recipes searched by other chefs just like you. Be the part of the culture by cooking using our recipes and publish your experience while cooking that dish and post it on our platform </p>
+            <div id="dishes">
+                <article>
+                    <h3>Samosa</h3>
+                    <a href="recipe1.html">
+                        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/samosa-recipe.jpg" alt="Samosa" class="images">
+                    </a>
+                </article>
+                <article>
+                    <h3>Chole Bhature</h3>
+                    <a href="recipe2.html">
+                        <img src="https://i.pinimg.com/736x/80/3f/f0/803ff029867e021b7b4193f58e1c4ad1.jpg" alt="Chole Bhautre" class="images">
+                    </a>
+                </article>
+                <article>
+                    <h3>Dosa</h3>
+                    <a href="recipe3.html">
+                        <img src="https://www.cookwithmanali.com/wp-content/uploads/2020/05/Masala-Dosa.jpg" alt="Dosa" class="images">
+                    </a>
+                </article>
+            </div>
+        </section>
+        <hr>
+        <section id="post">
+            <h2 class="heading">Post</h2>
+            <p class="heading">Post pictures of the dishes you made with love and share it with other poeple as well. Let them see how talented chef you are</p>
+            <div id="formm">
+                <form action="">
+                    <fieldset>
+                        <legend>Name</legend>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Name">
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Ingredients</legend>
+                        <label for="ingredient_post">Ingredient:</label>
+                        <textarea cols="50" rows="10" name="ingredients" id="ingredient_post" placeholder="Ingredient"></textarea>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Recipe</legend>
+                        <label for="recipe_post">Recipe:</label>
+                        <textarea cols="50" rows="10" name="recipe_post" id="recipe_post" placeholder="Recipe"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Upload Picutres or Videos</legend>
+                        <input type="file" accept="image/* , text/*, video/*" name="photo" id="photo">
+                    </fieldset>
+
+                    <button type="submit" name="submit" value="submit">Post</button>
+                </form>
+            </div>
+            
+        </section>
+        <hr>
+        <section id="contact">
+            <h2 class="heading">Contact</h2>
+            <p class="heading">Please help us by contributing your recipes Dishes to build this community further and help wach other find that perfect Dish for that prefect moment with their <b>Loved Ones</b>.</p>
+            <div id="formm">
+                <form action="">
+                    <fieldset>
+                        <legend>Personal Info</legend>
+                        <label for="name">Name:</label>
+                    <input type="text" name="personal" id="name" placeholder="Name">
+                    <label for="number">Number:</label>
+                    <input type="number" name="personal" id="number" placeholder="Number">
+                </fieldset>
+                <fieldset>
+                    <legend>Dish</legend>
+                    <label for="recipe_name">Dish Name:</label>
+                    <input type="text" name="recipe" id="recipe_name">
+                </fieldset>
+                <fieldset>
+                    <legend>Recipe</legend>
+                    <label for="ingredients">Ingredients</label>
+                    <textarea cols="50" rows="10" name="ingredients" id="ingredients" placeholder="Ingredients"></textarea>
+                    <label for="recipee">Recipe</label>
+                    <textarea cols="50" rows="10" name="Recipe" id="recipee" placeholder="Ingredients"></textarea>
+                </fieldset>
+                <button type="submit" name="submit" value="submit">Submit</button>
+            </form>
+        </div>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <h2 class="heading">Contact Us</h2>
+        <address>
+                <p>Contact for any queries</p>
+                <p> <span class="phone"> <a href="tel:+917525820076">+91-7525820076</a> </span> </p>
+                <p> <span class="email"> <a href="mailto:shivkumar29xyz@gmail.com">Gmail</a> </span> </p>
+                <p>Dont Forget to follow us at:</p>
+                <a href="https://www.instagram.com/shiiwvv/" target="_blank">Instagram</a>
+                <a href="https://x.com/shiv29__" target="_blank">Twitter(X)</a>
+        </address>
+        <p>All the copyrights &copy; are reserved. </p>
+    </footer>
+</body>
+</html>
